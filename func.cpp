@@ -88,7 +88,7 @@ void swapRows(int mas[N_max][N_max], int row1, int row2, int n)
 
 void Sort(int mas[N_max][N_max], int n)
 {
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 0; i < n; i++)
     {
         for (int j = i + 1; j < n; j++)
         {
